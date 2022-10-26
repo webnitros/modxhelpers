@@ -1,5 +1,5 @@
 {
-    "name": "webnitros/app",
+    "name": "webnitros/modxhelpers",
     "license": "MIT",
     "version": "1.1.2",
     "authors": [
@@ -10,29 +10,18 @@
     ],
     "scripts": {
         "tests" : "phpunit --bootstrap bootstrap.php",
-        "up:release": "gh release create \"v1.0.2\" --generate-notes"
+        "up:release": "gh release create \"v1.0.0\" --generate-notes"
     },
     "keywords": [
-        "client"
+        "client",
+        "modx"
     ],
     "require": {
-        "php": ">=7.0.0",
-        "symfony/dotenv": "^5.2",
-        "guzzlehttp/guzzle": "~6.5.5"
-    },
-    "require-dev": {
-        "roave/security-advisories": "dev-latest",
-        "phpunit/phpunit": "9.*",
-        "mockery/mockery": "^1.4"
+        "php": ">=7.0.0"
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
+            "ModxHelpers\\": "src/"
         }
     }
 }
