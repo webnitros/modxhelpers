@@ -7,3 +7,10 @@
 ```bash
 composer require webnitros/modxhelpers
 ```
+
+### Классы
+
+```php
+ModxHelpers\Processor\GetList
+ModxHelpers\Models\Object
+```

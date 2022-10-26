@@ -8,7 +8,7 @@
 
 namespace ModxHelpers\Processor;
 
-class FastList extends modObjectGetListProcessor
+class GetList extends modObjectGetListProcessor
 {
     /**
      * @return array|string
