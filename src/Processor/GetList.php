@@ -10,6 +10,7 @@ namespace ModxHelpers\Processor;
 
 use modObjectGetListProcessor;
 use xPDOQuery;
+use PDO;
 
 class GetList extends modObjectGetListProcessor
 {
