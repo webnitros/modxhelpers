@@ -11,6 +11,6 @@ composer require webnitros/modxhelpers
 ### Классы
 
 ```php
-ModxHelpers\Processor\GetList
-ModxHelpers\Models\Object
+ModxHelpers\Processor\GetList extends modObjectGetListProcessor
+ModxHelpers\Models\Object extends xPDOSimpleObject
 ```
