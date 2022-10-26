@@ -8,6 +8,8 @@
 
 namespace ModxHelpers\Processor;
 
+use modObjectGetListProcessor;
+
 class GetList extends modObjectGetListProcessor
 {
     /**

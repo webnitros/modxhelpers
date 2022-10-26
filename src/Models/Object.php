@@ -8,6 +8,8 @@
 
 namespace ModxHelpers\Models;
 
+use xPDOSimpleObject;
+
 class Object extends xPDOSimpleObject
 {
     public function save($cacheFlag = null)
