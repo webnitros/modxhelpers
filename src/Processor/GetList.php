@@ -9,6 +9,7 @@
 namespace ModxHelpers\Processor;
 
 use modObjectGetListProcessor;
+use xPDOQuery;
 
 class GetList extends modObjectGetListProcessor
 {
